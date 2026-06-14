@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Haunted House</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="lightning"></div>
+
+<header>
+    <h1>🏚️ The Haunted Mansion</h1>
+    <p>Enter if you dare...</p>
+</header>
+
+
+<!-- Floating Ghosts -->
+
+<div class="ghost ghost1">👻</div>
+<div class="ghost ghost2">👻</div>
+
+
+<!-- House -->
+
+<section class="house">
+
+    <div class="door" onclick="openDoor()">
+        🚪
+    </div>
+
+    <p id="message">
+        Click the door to enter the forbidden room...
+    </p>
+
+</section>
+
+
+<!-- Jump Scare -->
+
+<section class="scare">
+
+<h2>⚠️ Do you want to see the ghost?</h2>
+
+<button onclick="jumpScare()">
+Reveal the Spirit
+</button>
+
+</section>
+
+
+<!-- Scary Face -->
+
+<div id="monster">
+    💀
+    <h1>GET OUT!</h1>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
